@@ -357,13 +357,13 @@
 				CODE_SIGN_ENTITLEMENTS = ExponentialGrowthObjC/ExponentialGrowthObjC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = 3C2X999TFX;
 				INFOPLIST_FILE = ExponentialGrowthObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkaunert.ExponentialGrowthObjC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.julltron.ExponentialGrowthObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -375,13 +375,13 @@
 				CODE_SIGN_ENTITLEMENTS = ExponentialGrowthObjC/ExponentialGrowthObjC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = 3C2X999TFX;
 				INFOPLIST_FILE = ExponentialGrowthObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jkaunert.ExponentialGrowthObjC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.julltron.ExponentialGrowthObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -392,7 +392,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = 3C2X999TFX;
 				INFOPLIST_FILE = ExponentialGrowthObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -411,7 +411,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = 3C2X999TFX;
 				INFOPLIST_FILE = ExponentialGrowthObjCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

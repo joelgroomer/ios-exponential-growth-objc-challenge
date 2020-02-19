@@ -7,22 +7,40 @@
 //
 
 #import "GrainsOfRice.h"
+#include <math.h>
+
+@interface GrainsOfRice ()
+
+@property (nonatomic, copy) NSMutableArray *squares;
+
+@end
 
 @implementation GrainsOfRice
+
+//- (instancetype)init
+//{
+//    _squares[0] = 1;
+//}
 
 // Test your logic with the unit tests (Command + U)
 
 - (unsigned long long)grainsOnSquareNumber:(NSInteger)number {
-    #warning Implement this method 1st
-
-    return 0;
+    if (number > 64 || number < 1) {
+        return -1;
+    }
+    NSLog(@"Answer for number %ld: %llu", (long)number, (unsigned long long int)pow(2, number - 1));
+    return (unsigned long long int)pow(2, number - 1);
 }
 
 
 - (unsigned long long)grainsOnBoard {
-    #warning Implement this method 2nd
+    unsigned long long int total = 0;
     
-    return 0;
+    for (int i = 1; i <= 64; i++) {
+        total += [self grainsOnSquareNumber:i];
+    }
+    
+    return total;
 }
 
 @end
